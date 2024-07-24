@@ -1,5 +1,5 @@
 .navbar{
-  background:rgb(30,30,30);
+  background:white;
   height: 5rem;
   width: 100vw;
   max-width: 75rem;
@@ -15,7 +15,7 @@
 .logo{
   object-fit: cover;
   height: 3rem;
-  width: 4rem;
+  width: 10rem;
 }
 .desktopMenuListItem{
   margin:1rem;
@@ -23,9 +23,9 @@
 
 }
 .desktopMenuListItem:hover{
-  color: yellow;
+  color: blue;
   padding-bottom: 0.5rem;
-  border-bottom: 3px solid yellow;
+  border-bottom: 3px solid blue;
 }
 .desktopMenuBtn{
   border: none;
@@ -37,6 +37,7 @@
   padding: 0 1rem;
   border-radius: 2rem;
   cursor: pointer;
+  border-style:solid;
 }
 .desktopMenuImg{
   object-fit: cover;
@@ -46,9 +47,9 @@
 }
 
 .active{
-  color:yellow;
+  color:blue;
   padding-bottom: 0.5rem;
-  border-bottom:3px solid yellow;
+  border-bottom:3px solid blue;
 }
 
 .mobMenu{
@@ -80,7 +81,7 @@
   cursor: pointer;
 }
 
-@media screen and (max-width:720px) {
+@media screen and (max-width:758px) {
   .mobMenu{
     display: flex;
   }

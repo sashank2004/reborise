@@ -25,11 +25,12 @@
   justify-content: center;
 }
 .hello{
-  font-size: 1.75rem;
-  font-weight: 100;
+  font-size: medium;
+  font-weight: 300;
+  letter-spacing: 1px;
 }
 .introName{
-  color: yellow;
+  color: blue;
 }
 .introPara{
   font-size: medium;
@@ -40,7 +41,7 @@
   background:white;
   margin:1rem 0;
   padding: 0.75rem 1.5rem;
-  border: none;
+  border-style:solid;
   border-radius: 2rem;
   cursor: pointer;
 }
@@ -57,7 +58,7 @@
     font-size: 10vw;
   }
   .hello{
-    font-size: 4.5vw;
+    font-size: 3vw;
   }
 }
 @media screen and (max-width:480px) {
