@@ -40,22 +40,22 @@ const Navbar = () => {
         ()=>{
           setShowMenu(false)
         }
-       }>About</Link>
+       }>About Us</Link>
        <Link activeClass="active" to="works" spy={true} smooth={true} offset={-50} duration={500} className='listItem' onClick={
         ()=>{
           setShowMenu(false)
         }
-       }>Portfolio</Link>
+       }>Services</Link>
        <Link activeClass="active" to="experience" spy={true} smooth={true} offset={-50} duration={500} className='listItem' onClick={
         ()=>{
           setShowMenu(false)
         }
-       }>Experience</Link>
+       }>Insights</Link>
        <Link activeClass="active" to="contact" spy={true} smooth={true} offset={-50} duration={500} className='listItem' onClick={
         ()=>{
           setShowMenu(false)
         }
-       }>Contact</Link>
+       }>Contact Us</Link>
      </div>
     </nav>
   )

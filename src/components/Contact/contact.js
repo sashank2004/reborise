@@ -31,14 +31,12 @@ const Contact = () => {
   return (
     <section id='contactPage'>
       <div id="experience">
-        <h1 className='contactPageTitle'>My Experience</h1>
+        <h1 className='contactPageTitle'>Have An Idea In Mind?</h1>
         <p className='experienceDesc'>
-          I have experience working as a full stack web developer intern in below mentioned companies.
+        We’d love to hear from you! Whether you have a new project idea or need assistance with an existing one, our team is here to help. Reach out to us for expert guidance, innovative solutions, and personalized support. Let’s turn your vision into reality.
         </p>
-        <div className='experienceImgs'>
-          <a href="https://www.linkedin.com/company/techplement/mycompany/verification/">
-          <img src={Techplement} alt="Techplement" className='experienceImg'/>
-          </a>
+        <div>
+          
         </div>
       </div>
       <div id="contact">

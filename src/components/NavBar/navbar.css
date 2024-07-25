@@ -69,15 +69,15 @@
   padding: 0.5rem;
   height: fit-content;
   min-width: 15rem;
-  background: rgb(40,40,40);
+  background: #f4f3e7;
   border-radius: 1rem;
 }
 
 .listItem{
-  color: white;
+  color: black;
   padding: 0.5rem 3rem;
   margin:0.25rem;
-  background: rgb(30,30,30);
+  background: white;
   cursor: pointer;
 }
 

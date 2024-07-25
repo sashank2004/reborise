@@ -10,26 +10,26 @@ import RockPaperScissor from '../../assets/rockpaperscissor.png'
 const Works = () => {
   return (
     <section id="works">
-      <h2 className='worksTitle'>My Portfolio</h2>
-      <span className='worksDesc'>I have worked on several projects, have a look at some of them. </span>
+      <span className='ourprocess'>Our Process</span>
+      <h2 className='worksTitle'>How We <span className='work'>Work!</span></h2>
       <div className='worksImgs'>
-      <a href="https://drive.google.com/file/d/1iqKta1himbCwiGD6Fp2-kVvppbIKOIh1/view?usp=sharing">
-        <img src={courseSelling} alt="" className='worksImg'/>
-        </a>
-        <a href="https://www.linkedin.com/posts/sashank-singh-3a46a6247_techplement-techplementteam-techplementinternship-activity-7213611893310046208-gnuo?utm_source=share&utm_medium=member_desktop">
-        <img src={quote} alt="" className='worksImg'/>
-        </a>
-        <a href="https://sashank2004.github.io/amazonclone/">
-        <img src={Amazon} alt="" className='worksImg'/>
-        </a>
-        <a href="https://sashank2004.github.io/rock-paper-scissors-game/">
-        <img src={RockPaperScissor} alt="" className='worksImg'/>
-        </a>
-        <a href="https://sashank2004.github.io/youtubefrontpage/">
-        <img src={youtubeClone} alt="" className='worksImg'/>
-        </a>
+        <div className='worksImg'>
+          <span className='heading'>Discover & Assessment</span>
+          <span>Identify your needs and <br/>evaluate project requirements<br/> comprehensively.</span>
+        </div>
+        <div className='worksImg'>
+        <span className='heading'>Design & Planning</span>
+        <span>Create detailed plans and<br/> design tailored to your<br/> objectives.</span>
+        </div>
+        <div className='worksImg'>
+        <span className='heading'>Develop & Implementation</span>
+        <span>Build and integrate solutions<br/> according to the agreed plan.</span>
+        </div>
+        <div className='worksImg'>
+        <span className='heading'>Deliver & Support</span>
+        <span>Finalize the project and offer<br/> continuous support and<br/> maintenance.</span>
+        </div>
       </div>
-      <button className='workBtn'>See More</button>
     </section>
   )
 }

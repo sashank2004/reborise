@@ -20,21 +20,6 @@
   font-size: 1rem;
 }
 
-.experienceImgs{
-  margin: 1rem 0;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.experienceImg{
-  object-fit: cover;
-  width: 23%;
-  min-width: 9rem;
-  margin:auto;
-  padding: 0.25rem;
-  border:0.01rem solid white;
-}
-
 #experience{
   padding: 2rem;
 }
