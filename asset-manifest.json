@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/reborise/static/css/main.8b3615a7.css",
+    "main.js": "/reborise/static/js/main.260784c5.js",
+    "static/media/youtubeclone.png": "/reborise/static/media/youtubeclone.d551405751859cf46d1e.png",
+    "static/media/quoteoftheday.png": "/reborise/static/media/quoteoftheday.76ab0d7f029406aec5e2.png",
+    "static/media/Amazon.png": "/reborise/static/media/Amazon.b774a621315a17c51b7b.png",
+    "static/media/rockpaperscissor.png": "/reborise/static/media/rockpaperscissor.b8ce4e88629cb6d81237.png",
+    "static/media/courseselling.png": "/reborise/static/media/courseselling.856b9cb872bb0741911d.png",
+    "static/media/landingimagesecond.png": "/reborise/static/media/landingimagesecond.278af2471656c93c22f8.png",
+    "static/media/reboriselogoplusname.png": "/reborise/static/media/reboriselogoplusname.1c5754282d6d8db376c9.png",
+    "static/media/techplementLogo.png": "/reborise/static/media/techplementLogo.6a715359c2a3af9077cf.png",
+    "static/media/ui-design.png": "/reborise/static/media/ui-design.c4acd455fc2040eddcc8.png",
+    "static/media/instagram.png": "/reborise/static/media/instagram.0bcd1dcb7d853c327af7.png",
+    "index.html": "/reborise/index.html",
+    "main.8b3615a7.css.map": "/reborise/static/css/main.8b3615a7.css.map",
+    "main.260784c5.js.map": "/reborise/static/js/main.260784c5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8b3615a7.css",
+    "static/js/main.260784c5.js"
+  ]
+}
